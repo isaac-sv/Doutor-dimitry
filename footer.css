@@ -1,0 +1,17 @@
+footer {
+    background: #073203;
+    color: #FDE7E8;
+    padding: 20px;
+    text-align: left;
+}
+
+.mais-para-cima {
+    margin-top: -60px;
+}
+
+.texto-para-direita {
+    text-align: right;
+}
+.aproximar + .aproximar {
+    margin-top: -15px;
+}

@@ -1,0 +1,21 @@
+.page2 {
+    display: flex;
+    flex-direction: row;
+    background: #073203;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.destaque {
+    color:#E62B43;
+}
+
+.config_img {
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 10%;
+}
