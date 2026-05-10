@@ -1,40 +1,33 @@
 #homepage {
-  position: relative;
   height: 75vh;
+  background: url('media/background.svg') no-repeat center/cover;
+  background-attachment: fixed;
+  display: flex;
+  overflow: hidden;
 }
 
-#esquerda,
-#direita {
-  position: absolute;
-  top: 0;
-  left: 0;
+.homepage-content {
+  display: flex;
   width: 100%;
-  height: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
-#esquerda {
-  background: linear-gradient(135deg, #021501, #3CD126);
+.text-content {
+  flex: 1;
   color: white;
-  clip-path: polygon(0 0, 65% 0, 50% 100%, 0% 100%);
   z-index: 2;
+  margin-top: 3rem;
 }
 
-#esquerda h1 {
+.text-content h1 {
   margin-bottom: 20px;
+  font-size: 3em;
+  font-weight: 700;
 }
 
-#esquerda p {
+.text-content p {
   line-height: 1.6;
-  max-width: 450px;
-}
-
-#conteudo {
-    position: absolute;
-    top: 15%;
-    left: 15%;
-}
-
-#direita {
-  background: #384CE8;
-  clip-path: polygon(65% 0, 100% 0, 100% 100%, 50% 100%);
+  margin-bottom: 30px;
+  font-size: 1.1em;
 }
